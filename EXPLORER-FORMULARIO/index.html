@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Staatliches&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Avaçado</title>
+</head>
+<body>
+    <header>
+        
+        <h1>AVALIE A SUA MENTORIA</h1>
+        <p>Chegou a hora de avaliar seu mentor. Bora lá?</p>
+        
+        <img src="./images/img1.svg" alt="imagem header" >
+        <div id="rosa"><p>INFORMAÇÕES PESSOAIS</p></div>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+               <div class="nome">
+                  <div class="arg1">
+                    <label for="digitanome">Nome</label>
+                    <input id='digitanome'type="text">
+                  </div>
+                   <div class="arg2">
+                    <label for="digitasobrenome">Sobrenome</label>
+                    <input id='digitasobrenome'type="text">
+                   </div>
+                </div>
+                   <div class="arg3">
+                    <label for="digitaemail">E-mail <span>(digite um email válido)</span></label>
+                    <input id='digitaemail'type="url">
+                   </div>
+                <div class="info">
+                  <h1>INFORMAÇÕES DO MENTOR</h1>
+                  
+                </div>
+                <div class="arg4">
+                    <label for="digitamentor">Selecione quem foi seu mentor</label>
+                </div>
+                   <select name="" id="digitamentor">
+                     <option value="">Number 1</option>
+                     <option value="">Number 2</option>
+                     <option value="">Number 3</option>
+                    </select>
+                    <div class="arg5">
+                        <label for="txtarea">Feedback sobre o mentor</label><br/>
+                       <textarea name="" id="txtarea" ></textarea>
+                    </div>
+                    <div class="arg6">
+                        <input type="checkbox" name="" id="">
+                        <label for="txtarea">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                    </div>
+                    <div class="info2">
+                        <h1>AGENDANDO PRÓXIMA MENTORIA</h1>
+                      </div>
+                      <div class="arg7">
+                        <div class="data">
+                            <label for="datatime">Data <span>(DD/MM/AA)</span></label><br/>
+                            <input type="date" name="" id="datatime">
+                        </div>
+                        <div class="das">
+                            <label for="inicio">Das</label><br/>
+                            <input type="time" name="" id="inicio">
+                        </div>
+                        <div class="ate">
+                            <label for="fim">Até</label><br/>
+                            <input type="time" name="" id="fim">
+                        </div>
+                      </div>
+                      <div class="button">
+                       <input class="button"type="submit" value="Salvar" >
+                    </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
